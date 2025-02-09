@@ -74,7 +74,7 @@ public class BatteryStatsManagerTest{
     @Rule(order = 2)
     public final DevSdkIgnoreRule ignoreRule = new DevSdkIgnoreRule();
     private static final String TAG = BatteryStatsManagerTest.class.getSimpleName();
-    private static final String TEST_URL = "https://connectivitycheck.gstatic.com/generate_204";
+    private static final String TEST_URL = "https://connect.rom.miui.com/generate_204";
     // This value should be the same as BatteryStatsManager.BATTERY_STATUS_DISCHARGING.
     // TODO: Use the constant once it's available in all branches
     private static final int BATTERY_STATUS_DISCHARGING = 3;
